@@ -34,8 +34,6 @@
   margin-right: -5px;
 }
 
-.row.row-md { margin-bottom: 50px; }
-
 .row:before,
 .row:after {
   content: "";
