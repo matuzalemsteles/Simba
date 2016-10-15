@@ -18,7 +18,7 @@
   "scripts": {
     "setup": "if [ ! -d \"node_modules\" ]; then yarn; fi",
     "build": "node-sass index.scss --output-style compressed | postcss -o build/build.css",
-    "prepublish": "npm run setup && npm run build"
+    "prepublish": "yarn run setup && yarn run build"
   },
   "devDependencies": {
     "node-sass": "^3.7.0",
