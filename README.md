@@ -5,7 +5,7 @@ GRID system in pure CSS, simple, flexible and scalable for larger projects.
 
 ## Documentation
 
-You can read more about simba in the [docs](https://github.com/matuzalemsteles/Simba/blob/master/DOCS.md).
+You can read more about simba in the [docs](https://github.com/matuzalemsteles/Simba/blob/master/DOCS.MD).
 
 ## Versioning
 
