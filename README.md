@@ -8,7 +8,7 @@ GRID system in pure CSS, simple, flexible and scalable for larger projects.
 ### Container
 Centralize content of your page using the `.container`.
 	
-	<div class=".container">
+	<div class="container">
 		<!-- contents here -->
 	</div>
 
