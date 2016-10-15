@@ -1,0 +1,32 @@
+{
+  "version": "1.0.1",
+  "name": "simba-css",
+  "description": "GRID system, simple, flexible and scalable for small, medium and large projects.",
+  "homepage": "http://primercss.io/",
+  "author": "Matuzalém Teles <matuzalemteles@gmail.com>",
+  "license": "MIT",
+  "style": "index.scss",
+  "files": [
+    "index.scss",
+    "lib",
+    "build"
+  ],
+  "repository": "https://github.com/matuzalemsteles/Simba.git",
+  "bugs": {
+    "url": "https://github.com/matuzalemsteles/Simba/issues"
+  },
+  "scripts": {
+    "setup": "if [ ! -d \"node_modules\" ]; then yarn; fi",
+    "build": "node-sass index.scss --output-style compressed | postcss -o build/build.css",
+    "prepublish": "npm run setup && npm run build"
+  },
+  "devDependencies": {
+    "node-sass": "^3.7.0",
+    "postcss-cli": "^2.5.2"
+  },
+  "keywords": [
+    "simba",
+    "css",
+    "github"
+  ]
+}
