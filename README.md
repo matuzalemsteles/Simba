@@ -7,6 +7,12 @@ GRID system in pure CSS, simple, flexible and scalable for larger projects.
 
 You can read more about simba in the [docs](https://github.com/matuzalemsteles/Simba/blob/master/DOCS.MD).
 
+## Build
+
+For a compiled version of the module, one [yarn](https://yarnpkg.com) script is included to leave a **css** version `build/build.css`.
+
+	$ yarn run build
+
 ## Versioning
 
 Simba is kept under [the Semantic Versioning guidelines](http://semver.org/). Sometimes we do not follow, but we adhere to these rules whenever possible.
