@@ -2,7 +2,6 @@
   "version": "2.0.0",
   "name": "simba-css",
   "description": "GRID system, simple, flexible and scalable for small, medium and large projects.",
-  "homepage": "http://primercss.io/",
   "author": "Matuzalém Teles <matuzalemteles@gmail.com>",
   "license": "MIT",
   "style": "index.scss",
