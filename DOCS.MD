@@ -2,14 +2,14 @@
 
 ### Container
 Centralize content of your page using the `.container`.
-	
+```html	
 	<div class="container">
 		<!-- contents here -->
 	</div>
-
+```
 ### Grid
 The grid is a basic system, creating columns `.column` and lines `.row`.
-	
+```html	
 	<div class="row">
 		<div class="column">
 			.column
@@ -45,3 +45,4 @@ The grid is a basic system, creating columns `.column` and lines `.row`.
 			.column .column-4
 		</div>
 	</div>
+```
